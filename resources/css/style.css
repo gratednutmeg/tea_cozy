@@ -37,8 +37,7 @@ main {
 
 footer {
   position: relative;
-  height: 200px;
-  top: 75px;
+  top: 70px;
 }
 
 .logo img {
@@ -122,7 +121,7 @@ footer {
 /*Locations styling*/
 .locationsContainer {
   position: relative;
-  top: 75px;
+  top: 70px;
   background-image: url("./../images/img-locations-background.jpg");
   background-repeat: no-repeat;
   background-position: center;

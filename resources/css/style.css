@@ -75,10 +75,12 @@ footer {
   text-align: center;
   margin: auto;
   position: relative;
-  top: 50px;
+  top: 25px;
 }
 
-.teaHeader {
+.teaHeader h2,
+.teaHeader h4 {
+  margin: 25px;
 
 }
 

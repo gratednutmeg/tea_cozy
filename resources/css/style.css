@@ -31,13 +31,14 @@ nav a {
 }
 
 main {
-  position: relative;
+  position: static;
   top: 70px;
 }
 
 footer {
   position: relative;
-  top: 750px; /*TODO fix thisyi8*/
+  height: 200px;
+  top: 75px;
 }
 
 .logo img {
@@ -149,4 +150,22 @@ footer {
   text-align: center;
   margin: auto 20px;
 
+}
+
+/*Footer Styling*/
+.footer {
+  display: flex;
+  flex-direction: column;
+}
+
+.footerContact {
+  justify-content: center;
+  text-align: center;
+  height: 200px;
+  align-items: center;
+}
+
+.footerCopyright {
+  margin-left: 20px;
+  text-align: left;
 }

@@ -4,6 +4,7 @@ body {
   color: seashell;
   background-color: black;
   opacity: 0.9;
+  margin: auto;
 }
 
 header {
@@ -11,13 +12,26 @@ header {
   border-bottom: 1px solid seashell;
   position: fixed;
   width: 100%;
+  z-index: 1;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 nav {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+nav a {
   text-decoration: underline;
+  color: seashell;
+  padding: 10px;
 }
 
 main {
+  position: relative;
   top: 70px;
 }
 
@@ -26,7 +40,7 @@ footer {
 
 .logo img {
   height: 50px;
-  padding-left: 10px;
+  margin-left: 10px;
 }
 
 .mission {
@@ -45,4 +59,40 @@ footer {
   background-color: black;
   width: 100%;
   text-align: center;
+  display: block;
+}
+
+.mission h2,
+.mission h4 {
+  margin: 15px;
+}
+
+.featuredTea {
+  display: flex;
+  width: 1000px;
+  margin: auto;
+  flex-direction: column;
+  text-align: center;
+  margin: auto;
+}
+
+.teaHeader {
+
+}
+
+.teas {
+  display: inline-flex;
+  justify-content: center;
+  flex-flow: wrap;
+  /* I need 10px of space between the picture and the image*/
+}
+
+.teaItem img {
+  height: 200px;
+  width: 300px;
+}
+
+.teaItem h4 {
+  position: relative;
+  top: 10px;
 }

@@ -134,15 +134,19 @@ footer {
 
 }
 
+.locationsHeader h2 {
+  margin: auto auto 15px;
+}
+
 .locations {
   display: flex;
-  padding: 40px;
 }
 
 .address {
   background-color: black;
   width: 300px;
-  /*TODO test this TODO opacity: 1;*/
+  opacity: 1;
   text-align: center;
+  margin: auto 20px;
 
 }

@@ -36,6 +36,8 @@ main {
 }
 
 footer {
+  position: relative;
+  top: 750px; /*TODO fix thisyi8*/
 }
 
 .logo img {
@@ -80,7 +82,7 @@ footer {
   text-align: center;
   margin: auto;
   position: relative;
-  top: 25px;
+  top: 50px;
 }
 
 .teaHeader h2,
@@ -118,13 +120,29 @@ footer {
 
 /*Locations styling*/
 .locationsContainer {
+  position: relative;
+  top: 75px;
   background-image: url("./../images/img-locations-background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
   height: 500px;
-  margin: auto;
+  margin: 0px auto;
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
 }
 
+.locations {
+  display: flex;
+  padding: 40px;
+}
+
 .address {
+  background-color: black;
+  width: 300px;
+  /*TODO test this TODO opacity: 1;*/
+  text-align: center;
 
 }

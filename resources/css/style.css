@@ -43,7 +43,9 @@ footer {
   margin-left: 10px;
 }
 
-.mission {
+
+/*Mission/About Us Styling*/
+.missionContainer {
   background-image: url("./../images/img-mission-background.jpg");
   height: 700px;
   width: 1200px;
@@ -62,12 +64,15 @@ footer {
   display: block;
 }
 
-.mission h2,
-.mission h4 {
+.missionContainer h2,
+.missionContaine
+| h4 {
   margin: 15px;
 }
 
-.featuredTea {
+
+/*Featured Teas Styling*/
+.featuredTeaContainer {
   display: flex;
   width: 1000px;
   margin: auto;
@@ -81,7 +86,6 @@ footer {
 .teaHeader h2,
 .teaHeader h4 {
   margin: 25px;
-
 }
 
 .teaRow1 {
@@ -110,4 +114,17 @@ footer {
 
 .teaRow2 .teaItem {
   margin: 25px;
+}
+
+/*Locations styling*/
+.locationsContainer {
+  background-image: url("./../images/img-locations-background.jpg");
+  height: 500px;
+  margin: auto;
+  display: flex;
+
+}
+
+.address {
+
 }

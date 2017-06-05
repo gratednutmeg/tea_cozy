@@ -74,25 +74,38 @@ footer {
   flex-direction: column;
   text-align: center;
   margin: auto;
+  position: relative;
+  top: 50px;
 }
 
 .teaHeader {
 
 }
 
-.teas {
-  display: inline-flex;
+.teaRow1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.teaRow2 {
+  display: flex;
   justify-content: center;
-  flex-flow: wrap;
-  /* I need 10px of space between the picture and the image*/
+}
+
+.teaItem {
+  padding-bottom: 10px;
 }
 
 .teaItem img {
   height: 200px;
   width: 300px;
+  padding-bottom: 10px;
 }
 
 .teaItem h4 {
-  position: relative;
-  top: 10px;
+  margin: auto;
+}
+
+.teaRow2 .teaItem {
+  margin: 25px;
 }

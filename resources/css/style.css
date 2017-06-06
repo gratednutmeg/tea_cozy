@@ -47,7 +47,7 @@ footer {
 
 
 /*Mission/About Us Styling*/
-.missionContainer {
+.mission_container {
   background-image: url("./../images/img-mission-background.jpg");
   height: 700px;
   width: 1200px;
@@ -58,22 +58,22 @@ footer {
   margin: auto;
 }
 
-.missionHeader,
-.missionContent {
+.mission_header,
+.mission_content {
   background-color: black;
   width: 100%;
   text-align: center;
   display: block;
 }
 
-.missionHeader  h2,
-.missionContent h4 {
+.mission_header  h2,
+.mission_content h4 {
   margin: 15px;
 }
 
 
 /*Featured Teas Styling*/
-.featuredTeaContainer {
+.featured_tea_container {
   display: flex;
   width: 1000px;
   margin: auto;
@@ -84,41 +84,41 @@ footer {
   top: 50px;
 }
 
-.teaheader h2,
-.teaheader h4 {
+.tea_header h2,
+.tea_header h4 {
   margin: 25px;
 }
 
-.tearow1 {
+.tea_row_1 {
   display: flex;
   justify-content: space-between;
 }
 
-.tearow2 {
+.tea_row_2 {
   display: flex;
   justify-content: center;
 }
 
-.teaitem {
+.tea_item {
   padding-bottom: 10px;
 }
 
-.teaitem img {
+.tea_item img {
   height: 200px;
   width: 300px;
   padding-bottom: 10px;
 }
 
-.teaitem h4 {
+.tea_item h4 {
   margin: auto;
 }
 
-.tearow2 .teaitem {
+.tea_row_2 .tea_item {
   margin: 25px;
 }
 
 /*Locations styling*/
-.locationscontainer {
+.locations_container {
   position: relative;
   top: 70px;
   background-image: url("./../images/img-locations-background.jpg");
@@ -133,7 +133,7 @@ footer {
 
 }
 
-.locationsHeader h2 {
+.locations_header h2 {
   margin: auto auto 15px;
 }
 
@@ -156,14 +156,14 @@ footer {
   flex-direction: column;
 }
 
-.footerContact {
+.footer_contact {
   justify-content: center;
   text-align: center;
   height: 200px;
   align-items: center;
 }
 
-.footerCopyright {
+.footer_copyright {
   margin-left: 20px;
   text-align: left;
 }

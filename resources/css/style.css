@@ -58,17 +58,16 @@ footer {
   margin: auto;
 }
 
-.missionheader,
-.missioncontent {
+.missionHeader,
+.missionContent {
   background-color: black;
   width: 100%;
   text-align: center;
   display: block;
 }
 
-.missionContainer h2,
-.missionContaine
-| h4 {
+.missionHeader  h2,
+.missionContent h4 {
   margin: 15px;
 }
 
@@ -85,41 +84,41 @@ footer {
   top: 50px;
 }
 
-.teaHeader h2,
-.teaHeader h4 {
+.teaheader h2,
+.teaheader h4 {
   margin: 25px;
 }
 
-.teaRow1 {
+.tearow1 {
   display: flex;
   justify-content: space-between;
 }
 
-.teaRow2 {
+.tearow2 {
   display: flex;
   justify-content: center;
 }
 
-.teaItem {
+.teaitem {
   padding-bottom: 10px;
 }
 
-.teaItem img {
+.teaitem img {
   height: 200px;
   width: 300px;
   padding-bottom: 10px;
 }
 
-.teaItem h4 {
+.teaitem h4 {
   margin: auto;
 }
 
-.teaRow2 .teaItem {
+.tearow2 .teaitem {
   margin: 25px;
 }
 
 /*Locations styling*/
-.locationsContainer {
+.locationscontainer {
   position: relative;
   top: 70px;
   background-image: url("./../images/img-locations-background.jpg");

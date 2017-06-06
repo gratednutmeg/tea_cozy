@@ -150,6 +150,10 @@ footer {
 
 }
 
+.address h4 {
+  font-weight: normal;
+}
+
 /*Footer Styling*/
 .footer {
   display: flex;
